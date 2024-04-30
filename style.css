@@ -1,0 +1,141 @@
+
+.parent{
+    /* background-color: aquamarine; */
+    display:grid;
+    grid-template-columns: 80px 80px 80px 291px 50px 291px 50px 234.5px 35.5px 35.5px 35.5px;
+    /* 900 will be 3 column (300 300 300) */
+    grid-template-rows: 45px 115px 187px 105px 45px;
+    width: 100%;
+}
+
+.navchild{
+    background-color:#768e45;
+    font: 20px;
+    color:white;
+    /* border: 1px solid red; */
+    padding-top:13px;
+    text-align: center;
+}
+
+.child4{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 4;
+    grid-column-end: 9;
+}
+
+.child8{
+    background-color: blanchedalmond;
+    grid-column: 1/4;
+    grid-row:2/5;
+    /* padding:0 20px; */
+    /* border: 1px solid red; */
+   
+}
+hr{
+    margin:0 4%;
+}
+.somelink{
+    /* border: 3px solid blue; */
+    /* margin: 5%; */
+    padding-top: 4%;
+    font-size: 17px;
+    padding-left:8.5%;
+    padding-bottom: 2%;
+    color: #768e45;;
+}
+
+.child9{
+    /* background-color: pink; */
+    grid-row:2/3;
+    grid-column:4/12;
+    margin-left: 0.7%;
+    padding: 8px 2px;
+    /* border: 1px solid red; */
+}
+
+.welcomeTitle{
+    font-size: 20px;
+}
+
+.imagechild{
+    /* border: 1px solid red; */
+    margin-left: 2%;
+}
+.child10{
+    background-color: yellow;
+    grid-row: 3/4;
+    grid-column: 4/6;
+    background-image: url(../TravelGo_30_04_2024/asset/AboutBGimages.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.child11{
+    grid-row:3/4;
+    grid-column: 6/8;
+    background-image: url(../TravelGo_30_04_2024/asset/storyBgIn.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.child12{
+    grid-row: 3/4;
+    grid-column: 8/12;
+    background-image: url(../TravelGo_30_04_2024/asset/travelimage16.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text{
+    padding-top: 2px;
+
+}
+.child13{
+    /* background-color: purple; */
+    grid-row: 4/5;
+    grid-column: 4/6;
+    padding: 5px;
+    margin-left: 2%;
+}
+.child14{
+    /* background-color: blue; */
+    grid-row:4/5;
+    grid-column: 6/8;
+    padding: 5px;
+    margin-left: 2%;
+}
+.child15{
+    /* background-color: lightcoral; */
+    grid-row: 4/5;
+    grid-column: 8/12;
+    padding: 5px;
+    margin-left: 2%;
+}
+.child16{
+    background-color:#768e45;
+    grid-row: 5/6;
+    grid-column: 1/12;
+    color: white;
+    text-align: center;
+    padding-top: 1.1%;
+}
+/* .child1:hover{
+    background-color: #3f580c;
+    cursor: pointer;
+}
+.child2:hover{
+    background-color: #3f580c;
+    cursor: pointer;
+}
+.child3{
+    background-color: #3f580c;
+    cursor: pointer;
+} */
+
+.navchild:hover{
+    background-color: #3f580c;
+    cursor: pointer;
+}
+
+.somelink:hover{
+    color: rgb(135, 21, 21);
+    cursor: pointer;
+}
